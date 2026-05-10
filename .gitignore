@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+ENV/
+env/
+.venv
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 环境变量
+.env
+.env.*
+!.env.example
+
+# 日志
+logs/
+*.log
+
+# 数据文件
+data/uploads/*
+!data/uploads/.gitkeep
+data/vector_db/*
+!data/vector_db/.gitkeep
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# Alembic
+alembic/versions/*.py
+!alembic/versions/.gitkeep
+alembic.ini
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Claude Code
+.claude/
+
+# Linter
+.ruff_cache/
+
+# Claude Code
+.claude/settings.local.json
+
+# Linter
+.ruff_cache/

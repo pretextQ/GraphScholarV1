@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.venv*/
+
+# Node
+node_modules/
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Docker (避免递归)
+Dockerfile*
+docker-compose*.yml
+.dockerignore
+
+# 环境文件 (敏感信息，通过 docker-compose 注入)
+.env
+.env.local
+.env.*.local
+
+# 日志和缓存
+logs/
+.ruff_cache/
+.pytest_cache/
+
+# 数据目录 (通过 volume 挂载)
+data/uploads/*
+data/vector_db/*
+!data/uploads/.gitkeep
+!data/vector_db/.gitkeep
+
+# 文档和杂项
+md/
+*.md
+*.docx
+*.txt
+00.txt
+scripts/
+tests/
+generate_resume_doc.js
+package.json
+package-lock.json
