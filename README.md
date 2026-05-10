@@ -38,7 +38,7 @@
 
 ```bash
 # 1. 克隆项目
-git clone https://github.com/pretextQ/GraphScholarV1.git
+git clone https://gitee.com/qiulongfei4408/graph-scholar-v1.git
 cd GraphScholarV1
 
 # 2. 后端
